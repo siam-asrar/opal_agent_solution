@@ -1,0 +1,11 @@
+{
+  "name": "Content Drafting Specialist",
+  "purpose": "Generates long-form drafts from briefs or URLs, using summarize_url and content schema tools.",
+  "inputs": [
+    "brief",
+    "source_url"
+  ],
+  "outputs": [
+    "draft_markdown"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Opal Extractor Agent",
+  "purpose": "Extracts structured content from a link using Opal's extract content capability.",
+  "inputs": [
+    "url"
+  ],
+  "outputs": [
+    "extracted_content"
+  ]
+}

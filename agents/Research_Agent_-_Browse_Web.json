@@ -1,0 +1,11 @@
+{
+  "name": "Research Agent - Browse Web",
+  "purpose": "Performs web browsing/searching to find supporting articles and facts using browse_web style tool.",
+  "inputs": [
+    "query"
+  ],
+  "outputs": [
+    "sources",
+    "snippets"
+  ]
+}

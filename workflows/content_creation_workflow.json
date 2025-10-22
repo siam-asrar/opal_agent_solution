@@ -1,0 +1,30 @@
+{
+  "name": "Content Creation Workflow",
+  "steps": [
+    {
+      "step": "research",
+      "agent": "Research Agent - Browse Web",
+      "input": "topic"
+    },
+    {
+      "step": "extract",
+      "agent": "Opal Extractor Agent",
+      "input": "top_url"
+    },
+    {
+      "step": "draft",
+      "agent": "Content Drafting Specialist",
+      "input": "brief,extracted_content"
+    },
+    {
+      "step": "seo_opt",
+      "agent": "SEO Optimizer",
+      "input": "draft"
+    },
+    {
+      "step": "publish",
+      "agent": "Publisher Agent",
+      "input": "final_draft"
+    }
+  ]
+}
