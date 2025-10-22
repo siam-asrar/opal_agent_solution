@@ -1,5 +1,4 @@
-            - name: Vercel Actions
-  # You may pin to the exact commit or the version.
+        - name: Vercel Actions
   # uses: nexterias/actions-vercel@40c93311b3f4db0424ad64f8ff8e16b2820d7c38
   uses: nexterias/actions-vercel@v1.2.3
   with:
